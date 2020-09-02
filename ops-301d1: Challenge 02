@@ -1,0 +1,37 @@
+!/bin/bash
+
+# Script Name: appendDateTime.sh                       Ops 301 Ops Chall 02
+# Author: Mario Pugh
+# Date of latest revision:09/01/2020
+# Description of Purpose: Manipulate a variable to apply today's date to a log file
+
+# Declaration of variables
+
+# Declaration of functions
+
+# Main
+
+year=`date +%Y`
+month=`date +%m`
+day=`date +%d`
+hour=`date +%H`
+minute=`date +%M`
+second=`date +%S`
+echo `date`
+echo "Current Date: $month-$day-$year"
+echo "Current Time: $hour:$minute:$second" 
+
+# Copy /var/log/syslog to a file and appends the current date and time
+cp /var/log/syslog appendDateTime.txt
+
+# First create a file appendDateTime.txt and add some lines to it.
+cat appendDateTime.txt
+
+# Append date and time to text file
+echo "$month-$day-$year $hour:$minute:$second " >> appendDateTime.txt
+echo "Appended file:"
+cat appendDateTime.txt
+
+
+End
+
