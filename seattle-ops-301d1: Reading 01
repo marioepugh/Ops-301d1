@@ -1,0 +1,7 @@
+Mario Pugh    September 2, 2020
+
+The articles were Windows 10 hardening Techniques and how Endpoints Agents are Neccessary. 
+
+Windows 10 Hardening refers to reducing the attack surface that attackers have available to them and its based on the principle of least privilege. It goes over how to configure the system normally. Secure installation, clean up unwanted programs, encryption, update patches and service packs, BIOS configuration and how to enable the guards, get rid of unneeded services, Windows Defender, group policy, ransomware protection, secure authentication, secure web browsiong. 
+
+Endpoints agents are necessary and come from real time monitoring, remote monitoring of global assets and workers, montoring of cloud and other virtual infrastructure, ability to take action through the agent, assessment that does not require credential scanning, limited resource impact, streamlined deployment options and interoperability. 
