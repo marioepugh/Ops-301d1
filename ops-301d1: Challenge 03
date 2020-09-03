@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Script Name: filePermissionsLab03.sh          Ops 301 Ops 03
+# Author: Mario Pugh
+# Date of latest revision:09/02/2020
+# Description of Purpose: Changing file permissions on everything in directory 
+
+# Declaration of variables
+
+# Declaration of functions
+
+# Main
+
+# Prompt user for input
+read -p "Is there a certain directory you would like to change the permission of? " directory
+echo "before change"
+
+# This is before the change
+ls -la $directory
+
+# Prompt user for permissions to give
+read -p "What level of permission woud you like to give? " permission
+
+# Chmod permission of variables stored from input
+sudo chmod -R $permission $directory
+echo "This is after the change"
+
+# Final output
+ls -la $directory
+
+
+#end
+
