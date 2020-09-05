@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Script Name: 301d1OpsLab.sh
+# Author: Mario Pugh
+# Date of last revision: 09/04/2020
+# Description of purpose: A script for automated log cleaning 
+
+# Declaration of variables:
+
+# Main
+cd /var/log
+
+# Remove contents in /var/log/syslog
+cat syslog
+cat wtmp
+# Clean log files
+cd /var/log
+cat /dev/null > syslog > wtmp
+# Contents after cleaning
+echo "syslogs are cleared"
+cat syslog
+echo "wtmp is cleared"
+cat wtmp
+# End
+
+
