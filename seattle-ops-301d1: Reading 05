@@ -1,0 +1,3 @@
+The two articles are DNS made easy and Ubuntu Server. The DNS made is has an executive summary on the servers, why they matter and how Linux has 37% of global websites. Ubuntu was released in October of 2004 and has been improved through open source since then. Ubuntu Server platform can use websites, FTP, email server, file and print server, development platform, container deployment, cloud services and database server. 
+
+Nameservers store DNS records which are the actual file that says whatever the domain name maps to their IP address. 
