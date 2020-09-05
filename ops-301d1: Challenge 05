@@ -1,3 +1,4 @@
+  GNU nano 4.8               301d1OpsLab.sh                Modified  
 #!/bin/bash
 
 # Script Name: 301d1OpsLab.sh
@@ -10,8 +11,9 @@
 # Main
 cd /var/log
 
-# Remove contents in /var/log/syslog
-cat syslog
+# Remove contents in /var/log/syslog 
+cat syslog 
+# Remove contents in /var/log/wtmp
 cat wtmp
 # Clean log files
 cd /var/log
@@ -22,5 +24,8 @@ cat syslog
 echo "wtmp is cleared"
 cat wtmp
 # End
+
+
+
 
 
