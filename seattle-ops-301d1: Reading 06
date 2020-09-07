@@ -1,0 +1,5 @@
+Mario Pugh		September 7, 2020
+
+This reading was about Microsoft Active Directory (AD) or (MAD), a FAQ page designed to answer most questions on the matter. A on-prem directory service, allows administrators to manage and secure their IT resources, such as network objects like users, groups, systems, network, applications, digital assets and more and their relationship to each other. AD allows admins to create users and grant them access to Windows laptops, server and applications. AD can also be used to control groups of systems allowing for enforcing security settings and software updates. 
+
+Called Active Directory because it actively updates information in the directory and automatically replicates it to amm of the directory servers. 
