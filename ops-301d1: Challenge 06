@@ -1,0 +1,21 @@
+# Script Name: pythonUbuntuOSspecs.py
+# Author: Mario Pugh
+# Date of last revision: Sepetember 7, 2020
+# Description of purpose: Print host OS information
+
+import os
+
+# Declaration of variables
+# whoami, ip a, lshw -short
+
+operwhoami=os.popen("whoami").read()
+operipa=os.popen("ip a").read()
+operlshw= os.popen("sudo lshw -short").read()
+
+# Declaration of functions
+
+# Main
+# Prints whoami, ip a, lshw -short
+print(operwhoami, operipa, operlshw)
+
+# End
