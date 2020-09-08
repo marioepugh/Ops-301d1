@@ -1,0 +1,5 @@
+Mario Pugh		September 8, 2020
+
+Both articles are about Network Segmentation which is an architectural way to divide a network into multiple subnets or segments with each acting as its own small network. Allowing admins control the flow of traffic between subnets. 
+
+Benefits of segmentation are improved operational performance which reduces network congestion, limit cyberattack damage to improve cybersecurity by limiting how far an attack can spread, protect vulnerable devices to stop harmful traffic from reaching devices that are unable to protect themselves and reduce the scope of compliance to reduce the cost associated with regulatory compliance by limiting the number of in-scope systems. 
