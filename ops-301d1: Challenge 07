@@ -1,0 +1,31 @@
+# Script Name: pythonUbuntuOSspecs.py
+# Author: Mario Pugh
+# Date of last revision: Sepetember 8, 2020
+# Description of purpose: Print host OS information
+# Import libraries
+import os
+
+# Declaration of variables
+whatUserWants = input("Which directory would you like to view? ")
+
+# Declaration of functions
+def directory(userInputs):
+    for (root, dirs, files) in os.walk(userInputs):
+        print(root)
+        intoText(root)
+        print(dirs)
+        intoText(dirs)
+        print(files) 
+        intoText(files)  
+
+# Info to text file
+def intoText(texts):
+    fileWrite = open("./outputted.txt", 'a')
+    fileWrite.writelines(texts)
+    fileWrite.write("")
+    fileWrite.close()
+
+# Main
+directory(whatUserWants) 
+
+# End
