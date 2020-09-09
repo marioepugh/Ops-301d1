@@ -1,0 +1,7 @@
+Mario Pugh		September 8, 2020
+
+This reading was about Active Directory, the fundamentals including workshops and groups. Active Directory is a set of five services, it runs on Windows Server and manages permissions and access to network resources. The services are AD Domain Services (AD DS), AD Lightweight Directory Services (AD LDS), AD Federation Services (AD FS), AD Certificate Services (AD CS), and AD Right Management Services (AD RMS).
+
+AD DS is the most deployed part of AD, basically AD DS is a store of information like a telephone directory.  When AD is deployed you must consider the logical and physical sides for the structure. Workgrounds versus domains there is authentication and authorization. 
+
+Manager control based on access control with server manager, you can create a user role for access control, create an access policy, set access scope for a DNS Zone, set access scope for DNS Resource Records and view roles and role permissions. 
