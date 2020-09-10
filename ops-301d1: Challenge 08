@@ -1,0 +1,21 @@
+# Script Name: ADautomation.ps1
+# Author: Mario Pugh
+# Date of last revision: September 9, 2020
+# Description of purpose: Powershell AD Automation 
+
+function CreateUser()
+{
+    New-AdUser `
+      -Name "Franz Ferdinand" `
+      -GivenName "Franz" `
+      -Surname "Ferdinand" `
+      -Company "Globex Nuclear" `
+      -Title "TPS Reporting Lead" `
+      -City "Springfield" `
+      -State "OR"
+      -Department "TPS Department" `
+      -DisplayName "Franz Ferdinand" `
+      -EmailAddress "ferdi@globexnuclear.com" `
+      -Country "USA"
+}
+CreateUser
