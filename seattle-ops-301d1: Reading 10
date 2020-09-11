@@ -1,0 +1,3 @@
+Mario Pugh		September 11, 2020
+
+Today's reading was on Mozilla webserver and Barracuda DMZ network. The DMZ network functions as a subnetwork containing an organization's outward facing services sometimes called the demilitarized zone. The goal of a DMZ is to add an extra layer of security to an organization’s local area network. It is a protected area usually monitored that faces outside of the internal network. It gives the organization extra protection to detect and mitigate security breaches before they reach the internal network. 
