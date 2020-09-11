@@ -1,0 +1,5 @@
+Mario Pugh		September 10, 2020
+
+The reading today is about the three Types of Routing which are static, default and dynamic routing. Each one has advantages and disadvantages that need to be considered. 
+
+Static routing is a process where you manually add routes in a routing table. Default routing is a method where the router is configured to send all packets towards a single router and dynamic is where automatic adjustments of the routes to the current start of the route in the routing table. 
