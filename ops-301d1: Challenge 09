@@ -1,0 +1,23 @@
+# Script Name: OpsChal09.py
+# Author: Mario Pugh
+# Date of last revision: September 10, 2020
+# Description of purpose: Create a Python script that includes the following:
+
+#Declaration of variables
+# Assign to a variable a list of ten string elements.
+vegetables = ["corn", "broccoli", "radishes", "asparagus", "potatoes", "oregano", "New York", "carrots", "peas", "beets", "spinach"]
+
+# Print the fourth element of the list.
+print(vegetables[3])
+
+# Print the sixth through tenth element of the list.
+print(vegetables[5:11])
+
+# Change the value of the seventh element to “onion”.
+vegetables[6] = "onion"
+
+#Declaration of functions
+#Main
+
+print(vegetables)
+#End
