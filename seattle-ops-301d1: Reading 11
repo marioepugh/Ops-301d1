@@ -1,0 +1,6 @@
+Mario Pugh		September 13, 2020
+
+Today's reading is on Microsoft Azure and Azure AD Identity and Access Management. 
+Azure is a cloud computing service for companies, organizations and individuals, where you can pay for access to a pool of computing resources to host web servers, email servers, databases, file storage servers, VM’s, user directories or anything else you need. The cloud shares the hardware and automatically sends the work where needed.
+
+With AD access management you can protect your applications and data, defending against malicious login attempts and safeguard credentials. 
