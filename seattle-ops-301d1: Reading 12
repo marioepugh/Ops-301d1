@@ -1,4 +1,10 @@
 Mario Pugh		September 15, 2020
 
-Today's reading is on DevOps, a basic introduction as well as an introduction to infrastructure as code. DevOps is the primary initiative to achieve continuous integration and continuous delivery. This helps the development and operations processes become faster, resource friendly and more Agile. 
+Today's reading is on DevOps, a basic introduction as well as an introduction to infrastructure as code. DevOps is the primary initiative to achieve continuous integration and continuous delivery. This helps the development and operations processes become faster, resource friendly and more Agile. Which leads to companies able to save money and produce high quality software for customers. 
+
+DevOps increases productivity through CI/CD or continuous integration, continuous delivery, continuous testing and continuous monitoring. DevOps is important since through the continuous processes developers are able to speed up development times and roll out new features to customers faster. 
+
+Roles in DevOps include DevOps or platform engineer, build engineer, reliability engineer, release manager, data analyst and product manager. 
+
+IAC or infrastructure as code is infrastructure automation using software development principles and practices. The benefits include self service, idempotency, reduced costs, faster software delivery, self documenting, version controlled, validation and testing snd improved security.
 
