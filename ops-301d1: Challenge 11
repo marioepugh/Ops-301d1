@@ -1,0 +1,25 @@
+# Script Name: OpsChal11.py
+# Author: Mario Pugh
+# Date of last revision: September 14, 2020
+# Description of purpose: Create Python script for file handling 
+import os
+
+# Declaration of variables
+# Create a Python script that creates a new .txt file
+file = open("fhandling.txt", "w")
+
+# Appends three lines
+file.write("I need a beach house. \n" "Drink cofee. \n" "Sleep another day. ")
+
+# Prints to the screen the first line
+file = open("fhandling.txt", "r")
+print(file.readlines()[0])
+
+# Then deletes the .txt file.
+os.remove("fhandling.txt")
+
+# Declaration of functions
+
+# Main
+
+# End
