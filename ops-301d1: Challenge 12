@@ -7,44 +7,34 @@ import psutil
 cpuStuff = str(psutil.cpu_times())
 result = cpuStuff.split(",")
 
-# psutil.cpu_times()
-
 # Declaration of variables
 # Time spent by normal processes executing in user mode
 print(result[0], "seconds by normal processes executing in user mode")
-# print(result[0])
 
 # Time spent by processes executing in kernel mode
-print(result[2], "seconds by processes executing in kernel mode")
-# print(result[2])
+print(result[2], "seconds spent by processes executing in kernel mode")
 
 # Time when system was idle
 print(result[3], "seconds when system was idle")
-# print(result[3])
 
 # Time spent by priority processes executing in user mode
-print(result[1], "spent by priority processes executing in user mode")
-# print(result[1])
+print(result[1], "seconds spent by priority processes executing in user mode")
 
 # Time spent waiting for I/O to complete.
-print("Time spent waiting for I/O to complete")
-print(result[4])
+print(result[4], "seconds spent waiting for I/O to complete")
 
 # Time spent for servicing hardware interrupts
-print("Time spent for servicing hardware interrupts")
-print(result[5])
+print(result[5], "seconds spent for servicing hardware interrupts")
 
 # Time spent for servicing software interrupts
-print("Time spent for servicing hardware interrupts")
-print(result[6])
+print(result[6], "seconds spent for servicing hardware interrupts")
 
 # Time spent by other operating systems running in a virtualized environment
-print("Time spent by other operating systems running in a virtualized environment")
-print(result[7])
+print(result[7], "seconds spent by other operating systems")
 
 # Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
-print("Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel")
-print(result[8])
+print(result[8], "seconds spent running a virtual CPU for guest operating systems under the control of the Linux kernel")
+
 
 # Declaration of functions
 
