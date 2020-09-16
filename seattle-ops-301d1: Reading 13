@@ -1,0 +1,5 @@
+Mario Pugh		September 15, 2020
+
+Patch management is important for safeguarding your system against attacks that could have been prevented if not for poor habits of not updating when required updates for vulnerability are available. Companies that fight to stop this have patch management solutions in place to ensure organizational protection. Patches include feature patches, bug fix patches and security patches. 
+
+Windows Service Update Services (WSUS) allows administrators to deploy the latest Microsoft product updates. WSUS manages the distribution of updates that are released through Microsoft Update to your network. Update management is the process of controlled the deployment and maintenance of interim software releases into production. WSUS adds value to businesses through centralized update management and update management automation. 
