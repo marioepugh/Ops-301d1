@@ -20,3 +20,8 @@ print(response.status_code)
 # Main
 
 # End
+
+# https://www.geeksforgeeks.org/get-method-python-requests/?ref=rp
+
+# https://realpython.com/python-requests/
+
