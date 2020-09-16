@@ -1,0 +1,53 @@
+# Script Name: OpsChal12.py
+# Author: Mario Pugh
+# Date of last revision: Sepetember 15, 2020
+# Description of purpose: Fetch system information
+import psutil
+
+cpuStuff = str(psutil.cpu_times())
+result = cpuStuff.split(",")
+
+# psutil.cpu_times()
+
+# Declaration of variables
+# Time spent by normal processes executing in user mode
+print(result[0], "seconds by normal processes executing in user mode")
+# print(result[0])
+
+# Time spent by processes executing in kernel mode
+print(result[2], "seconds by processes executing in kernel mode")
+# print(result[2])
+
+# Time when system was idle
+print(result[3], "seconds when system was idle")
+# print(result[3])
+
+# Time spent by priority processes executing in user mode
+print(result[1], "spent by priority processes executing in user mode")
+# print(result[1])
+
+# Time spent waiting for I/O to complete.
+print("Time spent waiting for I/O to complete")
+print(result[4])
+
+# Time spent for servicing hardware interrupts
+print("Time spent for servicing hardware interrupts")
+print(result[5])
+
+# Time spent for servicing software interrupts
+print("Time spent for servicing hardware interrupts")
+print(result[6])
+
+# Time spent by other operating systems running in a virtualized environment
+print("Time spent by other operating systems running in a virtualized environment")
+print(result[7])
+
+# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
+print("Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel")
+print(result[8])
+
+# Declaration of functions
+
+# Main
+
+# End
