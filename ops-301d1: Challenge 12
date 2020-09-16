@@ -4,40 +4,34 @@
 # Description of purpose: Fetch system information
 import psutil
 
-cpuStuff = str(psutil.cpu_times())
-result = cpuStuff.split(",")
-
 # Declaration of variables
-# Time spent by normal processes executing in user mode
-print(result[0], "seconds by normal processes executing in user mode")
-
-# Time spent by processes executing in kernel mode
-print(result[2], "seconds spent by processes executing in kernel mode")
-
-# Time when system was idle
-print(result[3], "seconds when system was idle")
-
-# Time spent by priority processes executing in user mode
-print(result[1], "seconds spent by priority processes executing in user mode")
-
-# Time spent waiting for I/O to complete.
-print(result[4], "seconds spent waiting for I/O to complete")
-
-# Time spent for servicing hardware interrupts
-print(result[5], "seconds spent for servicing hardware interrupts")
-
-# Time spent for servicing software interrupts
-print(result[6], "seconds spent for servicing hardware interrupts")
-
-# Time spent by other operating systems running in a virtualized environment
-print(result[7], "seconds spent by other operating systems")
-
-# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
-print(result[8], "seconds spent running a virtual CPU for guest operating systems under the control of the Linux kernel")
-
+cpuStuff = str(psutil.cpu_times())
+fetchedInfo = cpuStuff.split(",")
 
 # Declaration of functions
+def fetchedStuff():
 
+# Time spent by normal processes executing in user mode [0]
+# Time spent by processes executing in kernel mode [2]
+# Time when system was idle [3]
+# Time spent by priority processes executing in user mode[1]
+# Time spent waiting for I/O to complete[4]
+# Time spent for servicing hardware interrupts [5]
+# Time spent for servicing software interrupts[6]
+# Time spent by other operating systems running in a virtualized environment [7]
+# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel [8]
+
+    print(fetchedInfo[0], "seconds spent by normal processes executing in user mode.")
+    print(fetchedInfo[2], "seconds spent by processes executing in kernel mode.")
+    print(fetchedInfo[3], "seconds when system was idle.")
+    print(fetchedInfo[1], "seconds spent by priority processes executing in user mode.")
+    print(fetchedInfo[4], "seconds spent waiting for I/O to complete.")
+    print(fetchedInfo[5], "seconds spent for servicing hardware interrupts.")
+    print(fetchedInfo[6], "seconds spent for servicing hardware interrupts.")
+    print(fetchedInfo[7], "seconds spent by other operating systems.")
+    print(fetchedInfo[8], "seconds spent running a virtual CPU for guest operating systems under the control of the Linux kernel.")
+ 
 # Main
+fetchedStuff()
 
 # End
