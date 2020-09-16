@@ -1,0 +1,22 @@
+# Script Name: OpsChal13.py
+# Author: Mario Pugh
+# Date of last revision: Sepetember 16, 2020
+# Description of purpose: HTTP GET request
+
+# Assign a requests.get function to a variable. Be sure to pass a parameter (the URL) into the function for it to work.
+# Print the status code obtained by the function using [var name].status code
+# This will return status code 200. Look it up at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+import requests
+
+# Declaration of variables
+response = requests.get('https://api.github.com/users/marioepugh')
+print(response.status_code)
+
+# print(response.__dict__)
+
+# Declaration of functions
+
+# Main
+
+# End
