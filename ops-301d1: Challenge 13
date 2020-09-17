@@ -2,33 +2,40 @@
 # Author: Mario Pugh
 # Date of last revision: Sepetember 16, 2020
 # Description of purpose: HTTP GET request
+
 # Assign a requests.get function to a variable. Be sure to pass a parameter (the URL) into the function for it to work.
 # Print the status code obtained by the function using [var name].status code
 # This will return status code 200. Look it up at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 import requests
-import os
+
 # Declaration of variables
-# response = requests.get(‘https://api.github.com/users/marioepugh’)
+# response = requests.get('https://api.github.com/users/marioepugh')
 # print(response.status_code)
 # print(response.__dict__)
-person = input(‘Enter your destination URL: ’)
-print(‘You entered’, person)
-HTTPMod = (“GET \n” “POST \n” “PUT \n” “DELETE \n” “HEAD \n” “PATCH \n” “OPTIONS \n”)
+
+inputtedURL = input('Enter your destination URL: ')
+print('You entered', inputtedURL)
+
+HTTPMod = ("GET \n" "POST \n" "PUT \n" "DELETE \n" "HEAD \n" "PATCH \n" "OPTIONS \n")
 print(HTTPMod)
-bigHead = input(‘Select a HTTP Method from the following: ’)
-print(‘You entered’ , person, ‘and Selected’, bigHead, ‘HTTP Method, Please confirm before proceeding.’)
-answer = input(“Enter yes or no:“)
-if answer ==“yes”:
-    response = requests.get(person)
+
+HTTPModList= input('Select a HTTP Method from the following: ')
+
+print('You entered' , inputtedURL, 'and Selected', HTTPModList, 'HTTP Method, Please confirm before proceeding.')
+answer = input("Enter yes or no :")
+if  answer == "yes":
+    response = requests.get(inputtedURL)
     print(response)
-elif answer == “no”:
-    print(“no”)
-else:
-    print(“Please enter yes or no.“)
-if response.status_code == 200:
-    print(‘Success!’)
-elif response.status_code == 404:
-    print(‘Not Found.’)
+    response == 200 
+    print("Success!") 
+elif    response == 404:
+    print("Not Found.")     
+else:  
+    answer == "no"
+    print("You answered no. Goodbye. ")
+
 # Declaration of functions
+
 # Main
+
 # End
