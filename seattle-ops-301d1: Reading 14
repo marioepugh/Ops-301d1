@@ -1,0 +1,7 @@
+Mario Pugh		September 17, 2020
+
+What is a SQL database? What is SQL?
+
+SQL is Structured Query language, it is the standard language for dealing with Relational Databases, SQL can be used to insert, search, update, and delete database records. It also does other operations like optimizing and maintenance of databases. 
+
+SQL databases are systematic collections of data which support electronic storage and manipulation of data. An example is Facebook which needs to store, manipulate and present data about its members, their friends, activities, messages, ads all of which are examples of databases. 
