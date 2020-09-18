@@ -3,7 +3,7 @@
 # Date of last revision: Sepetember 17, 2020
 # Description of purpose: Malware Analysis
 
-#!/usr/bin/python               # To use the python inperpeter
+#!/usr/bin/python               # To use the python interpeter
 import os                       # Importing os library for accessing a variety of system-based functions, can be used for file and directory manipulation.
 import datetime                 # Importing datetime library for working with date and time.
 
