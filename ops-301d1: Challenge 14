@@ -1,3 +1,8 @@
+# Script Name: OpsChal14.py
+# Author: Mario Pugh
+# Date of last revision: Sepetember 17, 2020
+# Description of purpose: Malware Analysis
+
 #!/usr/bin/python
 import os
 import datetime
