@@ -25,3 +25,5 @@ curl -XPOST https://www.hackthebox.eu/api/invite/generate
 # Copy code from success data line. 
 
 # Place it in decoder (Base64) to get invite key
+
+# Excellent reference: https://www.youtube.com/watch?v=58GGL3YgG4o&ab_channel=PBHackz
