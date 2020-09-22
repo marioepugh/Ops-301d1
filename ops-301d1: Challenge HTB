@@ -1,0 +1,27 @@
+# Hack the box
+https://www.hackthebox.eu/invite
+
+# Right click, inspect, elements to get following code
+/js/inviteapi.min.js
+# Copy link
+
+https://www.hackthebox.eu/js/inviteapi.min.js
+# make invite code
+
+# Leads to webpage with interesting JS
+
+# Go back to inspect tool, console tab
+# Enter the following
+makeInviteCode()
+# Cope code from data drop down
+
+# Decoder
+https://soumya.dev/decode
+# Copy code, paste it in decoder (ROT13)
+# Receive message
+
+# Enter in terminal
+curl -XPOST https://www.hackthebox.eu/api/invite/generate
+# Copy code from success data line. 
+
+# Place it in decoder (Base64) to get invite key
